@@ -15,3 +15,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "HWG Code Challenge"
 include(":app")
+include(":core:domain")
+include(":core:data")
+include(":core:model")
+include(":core:network")

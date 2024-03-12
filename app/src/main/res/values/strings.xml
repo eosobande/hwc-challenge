@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">HWG Code Challenge</string>
+    <string name="back_button">Back</string>
+    <string name="distance">%s \u00A0 - \u00A0 %s from city centre</string>
+    <string name="from">From</string>
+    <string name="showing_properties">Showing %s properties</string>
+    <string name="featured">Featured %s</string>
+    <string name="property_photo">property photo</string>
+    <string name="ratings_count">%s reviews</string>
+    <string name="about">About</string>
+    <string name="location">Location</string>
+    <string name="ratings">Ratings</string>
+    <string name="parenthesise">(%s)</string>
+    <string name="ratings_value_for_money">Value for money</string>
+    <string name="ratings_security">Security</string>
+    <string name="ratings_atmosphere">Atmosphere</string>
+    <string name="ratings_cleanliness">Cleanliness</string>
+    <string name="ratings_staff">Staff</string>
+    <string name="ratings_location">Location</string>
+    <string name="ratings_facilities">Facilities</string>
+    <string name="choose_room">Choose Room</string>
 </resources>

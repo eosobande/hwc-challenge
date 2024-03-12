@@ -2,7 +2,19 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
+      <entry key="FeaturedLabelTest">
+        <State />
+      </entry>
+      <entry key="PropertyDetailsBottomBarTest">
+        <State />
+      </entry>
+      <entry key="PropertyListScreenTest">
+        <State />
+      </entry>
       <entry key="app">
+        <State />
+      </entry>
+      <entry key="core">
         <State />
       </entry>
     </value>

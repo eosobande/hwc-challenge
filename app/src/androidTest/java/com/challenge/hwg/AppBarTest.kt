@@ -6,7 +6,6 @@ import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onNodeWithTag
 import com.challenge.hwg.ui.component.AppBar
 import com.challenge.hwg.ui.component.TestTags
-import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 

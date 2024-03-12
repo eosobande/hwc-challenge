@@ -5,7 +5,7 @@ import java.math.RoundingMode
 
 data class ExchangeRates(val usd: Double, val gbp: Double) {
     /**
-     * @return new [Price] converted from [price.currency] to [to] currency
+     * @return new [Price] converted from [price] currency to [to] currency
      */
     fun convert(price: Price, to: Price.Currency): Price {
 

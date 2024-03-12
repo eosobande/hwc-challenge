@@ -6,7 +6,6 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.size
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.outlined.LocationOn
 import androidx.compose.material.icons.outlined.Refresh
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -14,20 +13,16 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.challenge.hwg.R
 import com.challenge.hwg.presentation.PropertyListState
 import com.challenge.hwg.ui.PropertiesRoute
 import com.challenge.hwg.ui.PropertyDetailsRoute
 import com.challenge.hwg.ui.component.ProgressSpinner
-import com.challenge.hwg.ui.component.Toast
 import com.challenge.hwg.ui.navigateToPropertyDetails
-import com.challenge.hwg.ui.theme.Purple80
 
 @Composable
 fun HomeScreen(

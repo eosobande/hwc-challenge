@@ -15,10 +15,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.unit.dp
-import com.challenge.hwg.presentation.PropertyDetailsModel
 import com.challenge.hwg.presentation.PropertyDetailsState
 import com.challenge.model.Price
-import com.challenge.model.Property
 
 @Composable
 fun PropertyDetailsBottomBar(

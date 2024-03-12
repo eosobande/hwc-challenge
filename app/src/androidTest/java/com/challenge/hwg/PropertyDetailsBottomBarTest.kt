@@ -6,15 +6,12 @@ import androidx.compose.ui.test.assertIsNotEnabled
 import androidx.compose.ui.test.assertTextEquals
 import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onNodeWithTag
-import com.challenge.hwg.presentation.PropertyDetailsState
 import com.challenge.hwg.presentation.PropertyDetailsState.Converting
 import com.challenge.hwg.presentation.PropertyDetailsState.Error
 import com.challenge.hwg.presentation.PropertyDetailsState.Loaded
-import com.challenge.hwg.ui.component.AppBar
 import com.challenge.hwg.ui.component.PropertyDetailsBottomBar
 import com.challenge.hwg.ui.component.TestTags
 import com.challenge.model.Price
-import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 

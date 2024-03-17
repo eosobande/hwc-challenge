@@ -34,7 +34,6 @@ fun ImageGallery(
             items = images,
             key = { _, it -> it }
         ) { index, item ->
-            // AsyncImage not loading on emulator for some reason
             AsyncImage(
                 model = item,
                 contentDescription = stringResource(id = R.string.property_photo),
@@ -52,24 +51,6 @@ fun ImageGallery(
                     ),
                 contentScale = ContentScale.Crop
             )
-//            Image(
-//                painter = painterResource(id = R.drawable.lhwrzhujtgcoegidsugx),
-//                contentDescription = "Translated description of what the image contains",
-//                modifier = Modifier
-//                    .height(250.dp)
-//                    .clip(
-//                        when (index) {
-//                            0 -> RoundedCornerShape(topStart = 10.dp, bottomStart = 10.dp)
-//                            images.size - 1 -> RoundedCornerShape(
-//                                topEnd = 10.dp,
-//                                bottomEnd = 10.dp
-//                            )
-//
-//                            else -> RoundedCornerShape(0.dp)
-//                        }
-//                    ),
-//                contentScale = ContentScale.Crop,
-//            )
         }
         item { // end margin
             Spacer(modifier = Modifier.width(10.dp))

@@ -17,7 +17,7 @@ fun RemotePropertiesResponse.Property.toModel() =
         type = type,
         distance = "${distance.value} ${distance.units}",
         featured = isFeatured,
-        images = imagesGallery.map { it.prefix + it.suffix },
+        images = imagesGallery.map { "https://" + it.prefix + it.suffix },
         address = "$address1 $address2".trim(),
         ratingBreakdown = ratingBreakdown.toModel()
     )

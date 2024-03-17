@@ -47,7 +47,7 @@ fun PropertyItem(
                 contentDescription = stringResource(id = R.string.property_photo),
                 modifier = Modifier
                     .fillMaxWidth()
-                    .heightIn(max = 170.dp)
+                    .heightIn(max = 250.dp)
                     .clip(RoundedCornerShape(15.dp)),
                 contentScale = ContentScale.Crop
             )
